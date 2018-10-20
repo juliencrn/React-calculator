@@ -1,0 +1,54 @@
+.Calculator {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    background: lightgreen;
+}
+
+.container {
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(153, 153, 153, .5);
+}
+
+.Result {
+    text-align: right;
+    background: black;
+    color: white;
+    padding: 50px 25px 25px;
+    font-size: 200%;
+}
+
+.Keyboard {
+    display: grid;
+    background: dimgray;
+    grid-gap: 1px;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+.Touch {
+    color: black;
+    text-align: center;
+    background: #ededed;
+    padding: 25px;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.Touch:active {
+    background: transparent;
+}
+
+.Touch--orange {
+    background: orange;
+    color: white;
+}
+
+.Touch--0 {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
