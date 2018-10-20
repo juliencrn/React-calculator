@@ -23,7 +23,7 @@
     font-size: 200%;
 }
 
-.Keyboard {
+.grid {
     display: grid;
     background: dimgray;
     grid-gap: 1px;
@@ -40,7 +40,7 @@
 }
 
 .Touch:active {
-    background: transparent;
+    background: #ccc;
 }
 
 .Touch--orange {
